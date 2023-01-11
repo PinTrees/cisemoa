@@ -103,12 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       //WidgetT.openPageWithFade(context, LoginPage());
                     },
                     child: Container(
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          WidgetT.iconNormal(Icons.person),
-                        ],
-                      ),
+                      child: Cache
                     )
                 ),
               )
